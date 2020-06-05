@@ -10,5 +10,8 @@ class Employee:
         return '{} {}'.format(self.first, self.last)
 
 emp1 = Employee('Robert', 'Johnson', 41000)
+emp2 = Employee('Tempest', 'Davis', 40000)
 
-print(emp1)
+print(emp1.first)
+print(emp2.pay)
+
